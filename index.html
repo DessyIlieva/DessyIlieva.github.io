@@ -10,76 +10,75 @@
 	<title>Dessy Ilieva</title>
 </head>
 <body>
-
-	<!-- Header -->
+<!-- Header -->
 	<nav class="navbar navbar-dark bg-dark">
   		<div class="container-fluid">
 	      <a class="navbar-brand" href="index.html" disabled>Dessy Ilieva</a>
 	          <a class="nav-link active" aria-current="page" target="_blank" href="https://www.linkedin.com/in/dessy-ilieva/"><img class="linkedin" src="linkedin.png" height="40px" width="40px"></a>
+    	</div>
+	</nav>
+
+<!-- Content -->	
+<div class="container">
+
+  <div class="row">
+    <div class="col-5">
+      	<div class="container gallery">
+		<div class="main-img">
+			<img src="imgs/BS_UI.PNG" id="current">
+		</div>
+		<div class="imgs">
+			<img src="imgs/BS_UI.PNG">
+			<img src="imgs/BS_Designs.PNG">
+			<img src="imgs/BS_Jira.PNG">
+			<img src="imgs/BS_Code.PNG">
+		</div>
+	</div>
     </div>
-  </div>
-</nav>
-
-
-	<!-- Content -->
-	<div class="container">
-	<div class='project'>
+    <div class="col">
+      <div class="container">
+      <div class='project'>
 		<h2>BookSwappers Website</h2>
 		<p>A website POC, which allows users to browse and give away or exchange books.</p>
 		<h4>Technologies used:</h4>
 		<ul>
-			<li>HTML, CSS, Bootstrap</li>
-			<li>Javascript</li>
+			<li>HTML, CSS, JavaScript, Bootstrap</li>
 			<li>Python, Django</li>
 			<li>GitHub, Jenkins, Anaconda</li>
 			<li>Jira, LucidApp, Figma</li>
 		</ul>
-		<a href="#"><strong>Click to Visit</strong></a>
-	</div>
+		</div>
+      </div>
+    </div>
+  </div>
 
-	<div class='project'>
-		<h2>Python & Selenium End to End Test Framework</h2>
-		<p>A framework created for testing the Book Swap website. It is structured around BDD principles and includes front and back end tests, as well as reports.</p>
+  <div class="row">
+    <div class="col-5">
+      	<div class="gallery_wip">
+		<div class="main-img">
+			<img src="imgs/wip.PNG" id="current">
+		</div>
+	</div>
+    </div>
+    <div class="col">
+      <div class="container">
+      <div class='project'>
+		<h2>Python & Selenium Hybrid Framework Work in Progress</h2>
+		<p>A hybrid selenium framework that tests the BookSwappers website. 
+		<br> It combines the page object and data driven models and includes utilities such as html reports, screenshot generation, etc.</p>
 		<h4>Technologies used:</h4>
 		<ul>
-			<li>Python</li>
-			<li>pyTest, Selenium, Gherkin</li>
-			<li>Jenkins, GitHub</li>
+			<li>Python, Selenium</li>
+			<li>pyTest, pytest-html, pytest-xdist, openpyxl </li>
+			<li>Jenkins, GitHub, Docker</li>
 		</ul>
-		<a href="#"><strong>Click to View Code on GitHub</strong></a>
-	</div>
-
-	<div class='project'>
-		<h2>Python API Test Framework</h2>
-		<p>Work in progress.</p>
-	</div>
-
-	<div class='project'>
-		<h2>Python & Locust.io Load Testing Framework</h2>
-		<p>Work in progress.</p>
-	</div>		
-
-	<div class='project'>
-		<h2>Cypress End to End Test Framework</h2>
-		<p>Work in progress.</p>
-	</div>
-
-
-
-	<div class="container gallery">
-		<div class="main-img">
-			<img src="imgs/BS_Code.PNG" id="current">
 		</div>
-		<div class="imgs">
-			<img src="imgs/BS_Code.PNG">
-			<img src="imgs/BS_Designs.PNG">
-			<img src="imgs/BS_Jira.PNG">
-			<img src="imgs/BS_Jira - Copy.PNG">
-		</div>
-	</div>
+      </div>
+    </div>
+  </div>
 
+</div>
 
-	</div>
-	<script src="gallery.js"></script>
+<script src="gallery.js"></script>
 </body>
 </html>
