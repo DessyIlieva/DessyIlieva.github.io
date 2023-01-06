@@ -1,0 +1,112 @@
+/* Structure & Navbar*/
+body{
+	font-family: 'T-Star Pro', sans-serif;
+	font-size: 1.1rem;
+  margin-bottom: 50px;
+}
+
+.container {
+  margin-left: 0!important;
+  margin-right: 0!important;
+}
+
+.navbar-brand {
+	color: white !important; 
+	padding-left: 10px;
+	font-size: 40px !important; 
+	font-family: impact, sans-serif;
+}
+
+.navbar {
+	border-bottom: 5px solid rgba(227,79,36,255) !Important;
+}
+
+.container {
+	padding-top: 50px;
+}
+
+.nav-item{
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+
+
+/* Links */
+a{color: rgba(227,79,36,255); }
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }
+
+
+
+/* Gallery */
+:root {
+  /* Set fade in duration */
+  --fade-time: 0.5s;
+}
+
+.gallery {
+  max-width: 650px;
+  margin: auto;
+  border: #fff solid 3px;
+  background: #fff;
+}
+
+.main-img img,
+.imgs img {
+  width: 100%;
+}
+
+.imgs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+}
+
+.imgs img {
+  cursor: pointer;
+}
+
+/* Fade in animation */
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn var(--fade-time) ease-in 1 forwards;
+}
+
+/* Media Queries */
+@media(max-width: 600px) {
+  .imgs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+
+
+
+/* Misc */
+ul{
+  list-style-type: square;
+}
+
+.project{
+	margin-bottom: 60px;
+}
+
+ul {list-style: none}
+
+li::before {content: "•"; color: rgba(227,79,36,255);
+  display: inline-block; width: 1em;
+  margin-left: -1em}
