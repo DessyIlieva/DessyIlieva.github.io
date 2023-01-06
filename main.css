@@ -8,6 +8,7 @@ body{
 .container {
   margin-left: 0!important;
   margin-right: 0!important;
+  padding-top: 50px;
 }
 
 .navbar-brand {
@@ -21,9 +22,6 @@ body{
 	border-bottom: 5px solid rgba(227,79,36,255) !Important;
 }
 
-.container {
-	padding-top: 50px;
-}
 
 .nav-item{
 	margin-right: 10px;
@@ -56,6 +54,14 @@ a:active { text-decoration: none; }
   margin: auto;
   border: #fff solid 3px;
   background: #fff;
+}
+
+.gallery_wip {
+  max-width: 300px;
+  margin: auto;
+  border: #fff solid 3px;
+  background: #fff;
+  padding-top: 50px;
 }
 
 .main-img img,
